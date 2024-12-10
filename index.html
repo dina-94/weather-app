@@ -1,0 +1,134 @@
+<html>
+
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title> weather app </title>
+	<link rel="stylesheet" href="css/index.css">
+	<link rel="stylesheet" href="css/all.min.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet"
+		href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=PT+Sans+Caption:wght@400;700&family=Pacifico&family=Righteous&family=Saira+Condensed:wght@300;400;500;600;700;800&display=swap">
+
+
+</head>
+
+<body>
+
+	<div class="site-content">
+
+
+		   <div class="site-header bg-dark p-5 pb-3">
+
+			<div class="container d-flex flex-row mb-5">
+		
+						<div class="container d-flex flex-row mx-5">
+					  <a class="mx-2 pt-1" href="#">
+						<img src="images/logo@2x.png" alt="img" width="65" height="40">
+					  </a>
+					
+					
+				<div class="navtext d-flex flex-column pt-1">
+				<a href=""> <h5 class="m-0 pb-1">weather</h5></a> 
+				 <a href=""> <h6 class="m-0 p-0">tagline goes here</h6></a>
+</div>
+				</div>
+
+			
+
+	<div class="navul mx-5 w-75">
+				  <ul class="nav nav-tabs ">
+					<li class="nav-item ">
+					  <a class="nav-link active rounded-pill bg-transparent text-primary" aria-current="page" href="#">Home</a>
+					</li>
+					<li class="nav-item ">
+					  <a class="nav-link rounded-pill" href="#">News</a>
+					</li>
+					<li class="nav-item ">
+					  <a class="nav-link rounded-pill" href="#">Live Cameras</a>
+					</li>
+					<li class="nav-item">
+					  <a class="nav-link rounded-pill" href="#">Photos</a>
+					</li>
+					<li class="nav-item">
+					  <a class="nav-link rounded-pill" href="#">Contact</a>
+					</li>
+				  </ul>
+</div>
+			</div>
+		</div> 
+
+
+
+
+
+
+<main class="d-flex flex-column">
+
+	<div class="picpg">
+		<div class="site-url d-flex flex-column m-auto pt-5 position-relative">
+			
+			<input type="url" placeholder="find your location" class="form-control rounded-5" id="cityName">
+		  		  <button onclick="getWeather()" class="btn btn-lg px-5 rounded-5 text-lg-center" id="submitBtn">find</button>
+</div>
+
+
+		  <div class="w-100 mt-lg-5" id="showdata" >
+
+			
+				</div>
+				  </div>
+	</div>
+
+	
+</main>
+
+
+
+
+
+
+<div class=h-25>
+
+
+
+		<footer class="site-footer w-100">
+			<div class="container mb-3  w-100 p-0 m-0">
+				<div class="row w-100">
+<div class="col-md-8">
+<div class="ms-5 d-flex flex-column m-auto pt-5 position-relative">
+			
+							<input type="url" placeholder="enter your email to subscribe" class="form-control rounded-5" id="email">
+									<button class="btn btn-lg rounded-5 text-lg-center text-white" id="subscribe">subscribe</button>
+</div>
+</div>
+<div class="col-4 d-flex flex-row justify-content-center align-items-center mt-5 m-0 position-relative">
+<div class="row d-flex flex-row justify-content-center align-items-center m-0 p-0 p-0 position-relative">
+             
+<a href="facebook" class="sizing col col-lg-3 rounded-circle align-content-center"><i class="fa-brands fa-facebook-f" style="color: #009ad8;"></i></a> 
+<a href="twitter" class="sizing col col-lg-3 rounded-circle align-content-center"> <i class="fa-brands fa-twitter" style="color: #009ad8;"></i> </a>
+
+<a href="google-plus" class="sizing col col-lg-3 rounded-circle align-content-center"> <i class="fa-brands fa-google-plus" style="color: #009ad8;"></i></a>
+<a href="pinterest" class="sizing col col-lg-3 rounded-circle align-content-center"> <i class="fa-brands fa-pinterest" style="color: #009ad8;"></i> </a>						  
+
+						
+						  
+						  
+ </div>
+ </div>
+</div>
+</div>
+
+<p class="text-white ms-5 ps-5 text-lg-start mt-4 pb-5">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+
+</footer> 
+</div>
+
+
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<script src="js/index.js"></script>
+</body>
+
+</html>

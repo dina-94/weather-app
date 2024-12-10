@@ -1,0 +1,163 @@
+body{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+
+
+}
+
+.navul ul{
+    justify-content: end;
+  
+}
+.navul a{
+    color: white;
+}
+.navtext a{
+    color: white;
+    text-decoration: none;
+}
+.navtext h5{
+    font-size: 17px;
+}
+.navtext h6{
+    font-size: 10px;
+}
+
+.picpg{
+    height: 100vh;
+    background-image: url(../images/banner\ \(1\).png);
+    background-color: #262936;
+    background-position: top;
+    background-size: auto;
+
+    background-repeat: no-repeat;
+    
+}
+
+
+.site-url{
+ 
+    width: 75%;
+}
+
+#submitBtn {
+height: 46px;
+position: absolute;
+width: 105px;
+left: 90.4% ;
+top: 53px;
+text-align: center;
+background-color: #009ad8;
+border: none;
+z-index: 2;
+} 
+.site-footer{
+
+   background-color: #323544;  
+}
+
+
+.headr{
+    color:rgb(191, 193, 200);
+    line-height: 21px;
+    padding: 20px;
+}
+.maintd h2{
+font-size: 80px;
+font-weight: bold;
+}
+
+.firsth{
+    background-color: #2d303f;
+    color: #bfc1c8;
+    text-align: start;
+    
+}
+.secondh{
+    background-color: #232632;
+    color: #bfc1c8;
+    text-align: start;
+    
+}
+.thirdh{
+    background-color: #323544;
+    color: #bfc1c8;
+    text-align: start;
+    
+}
+.firstb{
+   
+    color: #bfc1c8;
+    text-align: start;
+    background-color: #232632;
+ 
+}
+
+.secondb{
+    
+    color: #bfc1c8;
+    text-align: center;
+     background-color: #2d303f;
+  
+
+}
+.thirdb{
+    background-color: #232632;
+    color: #bfc1c8;
+    text-align: center;
+ 
+
+    
+}
+.maxcurr{
+    font-size: 80px;
+    color: white;
+    font-weight: bolder;
+}
+.maxnext{
+    font-size: 20px;
+    color: white;
+    font-weight: bolder;
+}
+#cityName{
+    padding: 15px;
+    background: #1e202b;
+    color: white;
+border-color: transparent;}
+.sizing{
+ 
+    font-size: 20px;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    padding: 0px;
+    margin: 0px;
+    background: rgba(0, 0, 0, 0.4);
+ 
+
+}
+#subscribe {
+    height: 46px;
+    font-size: 15px;
+    position: absolute;
+    width: 105px;
+    left: 86% ;
+    top: 53px;
+    text-align: center;
+    background-color: #009ad8;
+    border: none;
+    z-index: 2;
+    } 
+
+    #email{
+        padding: 15px;
+        background: #1e202b;
+        color: white;
+    border-color: transparent;}
+
+  
+
+    .site-url input::placeholder{
+        color: #717589; 
+    }
